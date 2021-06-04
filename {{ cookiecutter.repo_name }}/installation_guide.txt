@@ -1,1 +1,6 @@
-
+1. Install Python 2.7 or 3.5
+2. Install cookiecutter Python package >= 1.4.0: pip install cookiecutter
+3. If you want to customize the directory structure, fork Github repository at https://github.com/ReneHeim/cookiecutter-data-science (Originally forked from https://github.com/drivendata/cookiecutter-data-science).
+4. Open command line tool in a directory where you would like to create the project directory structure
+5. Run: cookiecutter https://github.com/ReneHeim/cookiecutter-data-science (or modifiy to link to your customized repository).
+6. Respond to user input prompts and use your reproducible project directory structure. 
